@@ -32,6 +32,7 @@
 
 - (IBAction)btnSignUpWithTwitterClick:(id)sender {
     [self twitter];
+    NSLog(@"Hello");
 //    FeedViewController *feedView = [self.storyboard instantiateViewControllerWithIdentifier:@"FeedViewController"];
 //    feedView.strLogin = @"3223177442";
 //    feedView.strSecret = @"MT6QW4GbWKyOYNHxmtSm5Eu9MRXMDAapCKFHH8z4gLKra";
